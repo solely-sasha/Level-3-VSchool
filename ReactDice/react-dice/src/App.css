@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 79, 108);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+}
+
+h1 {
+  margin: 1rem;
+  color: white;
+  font-size: 3rem;
+}
+
+button {
+  background-color: #5a3792;
+  color: white;
+  padding: 1rem;
+  font-size: 1.8rem;
+  margin: 0.7rem;
+  border-radius: 1rem;
+}
+
+.numbers {
+  padding: 0.8rem;
+  font-size: 2rem;
+  color: #5a3792;
+  background-color: aliceblue;
+  border-radius: 0.2rem;
+  margin: 0.6rem;
+  font-weight: 700;
+}
+
+.dice-div {
+  margin: 1rem;
+}

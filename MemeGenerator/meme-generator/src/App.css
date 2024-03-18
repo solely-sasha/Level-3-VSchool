@@ -1,0 +1,166 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  text-align: center;
+}
+.header {
+  background-color: #2273c3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-image {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.header-title {
+  margin: 10px 0;
+}
+
+.header-project {
+  margin-bottom: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-input {
+  text-align: center;
+  margin-right: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.form-input:focus {
+  background-color: #bfc4ca;
+}
+
+.form-input:hover {
+  background-color: #bfc4ca;
+}
+.form-button {
+  padding: 5px 10px;
+  background-color: #5c6f75;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+.form-button:hover {
+  background-color: #1976d2;
+}
+
+.meme {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.meme-image {
+  width: 100%;
+  height: auto;
+}
+
+.meme-text {
+  position: absolute;
+  width: 100%;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  font-size: 24px;
+  pointer-events: none;
+}
+
+.top {
+  top: 10px;
+}
+
+.bottom {
+  bottom: 10px;
+}
+.meme-item-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.meme-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.meme-list-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.meme-list-image {
+  max-width: 250px;
+  height: 250px;
+}
+
+.meme-list-text {
+  position: absolute;
+  width: 100%;
+  font-size: 0.7rem;
+  bottom: 0;
+  text-align: center;
+  color: white;
+}
+
+/* .meme-list-top,
+.meme-list-bottom {
+  margin: 0;
+} */
+.meme-list-top {
+  margin-bottom: 200px;
+}
+
+.meme-list-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.edit-button {
+  margin: 0 5px;
+  background-color: #395e7c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #1976d2;
+}
+
+.save-button {
+  margin: 0 5px;
+  background-color: #395e7c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #1976d2;
+}

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(142, 140, 140);
+  color: black;
+}
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+h2 {
+  text-align: center;
+  text-shadow: -3px 0px 3px rgb(107, 149, 81);
+}
+span {
+  color: rgb(107, 149, 81);
+}
+h3 {
+  font-size: 1.5rem;
+}
+.friend-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.friend {
+  background-color: #41345b;
+  border: 1px solid #292835;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  padding: 1.5rem;
+  width: 300px;
+  margin: 10px;
+}
+
+.friend h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.pet {
+  font-size: 1.1em;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .friend {
+    width: 90%;
+  }
+}
